@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  ros_app:
+    build: .
+    container_name: upd_container
+    volumes:
+      - C:\users\user\Desktop\udp_project:/workspace
+    stdin_open: true
+    tty: true
