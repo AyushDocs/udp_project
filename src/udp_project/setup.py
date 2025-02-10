@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'udp_publisher = udp_project.udp_publisher:main',
         ],
     },
 )
